@@ -1,0 +1,27 @@
+  .component-key {
+    display: inline-flex;
+    width: 25%;
+    flex: 1 0 auto;
+  }
+  
+  .component-key button {
+    background-color: #ffffff;
+    border: 0;
+    font-size: 1rem;
+    margin: 0 1px 0 0;
+    flex: 1 0 auto;
+    padding: 0;
+  }
+  
+  .component-key:last-child button {
+    margin-right: 0;
+  }
+  
+  .component-key.orange button {
+    color: #f5923e;
+  }
+  .component-key.bgorange button {
+    background-color: #f5923e;
+    color:#ffffff;
+  }
+  

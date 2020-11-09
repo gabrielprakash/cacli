@@ -1,0 +1,16 @@
+.component-key-panel {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    border-top:3px solid #d3d3d373;
+  }
+  
+  .component-key-panel > div {
+    width: 100%;
+    margin-bottom: 1px;
+    flex: 1 0 auto;
+    display: flex;
+  }
+  
