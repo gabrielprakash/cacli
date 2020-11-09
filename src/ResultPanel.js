@@ -13,7 +13,7 @@ export default class Display extends React.Component {
     return (
       <div className="component-display">
         <div className="value" >{this.props.value}</div>
-        {/* <div className="operation" >{this.props.operation}</div> */}
+        <div className="operation" >{this.props.operation}</div>
       </div>
     );
   }
